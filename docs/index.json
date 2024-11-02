@@ -1,0 +1,8 @@
+"SpaceNumber": {
+        "version": "1.0",
+        "description": "Show current space number in the top right corner",
+        "homepage": "https://github.com/zzuse/SpaceNumber.spoon",
+        "license": "MIT",
+        "download": "https://github.com/zzuse/Spoons/raw/master/Spoons/SpaceNumber.spoon.zip",
+        "dependencies": []
+    }
