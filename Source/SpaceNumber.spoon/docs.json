@@ -1,0 +1,103 @@
+[
+    {
+        "Command": [],
+        "Constant": [],
+        "Constructor": [],
+        "Deprecated": [],
+        "Field": [
+            {
+                "def": "SpaceNumber.name",
+                "desc": "The name of the Spoon",
+                "name": "name",
+                "type": "string",
+                "notes": []
+            },
+            {
+                "def": "SpaceNumber.version",
+                "desc": "The version of the Spoon",
+                "name": "version",
+                "type": "string",
+                "notes": []
+            },
+            {
+                "def": "SpaceNumber.author",
+                "desc": "The author of the Spoon",
+                "name": "author",
+                "type": "string",
+                "notes": []
+            },
+            {
+                "def": "SpaceNumber.license",
+                "desc": "The license of the Spoon",
+                "name": "license",
+                "type": "string",
+                "notes": []
+            },
+            {
+                "def": "SpaceNumber.canvas",
+                "desc": "The canvas object used to display the space number",
+                "name": "canvas",
+                "type": "hs.canvas",
+                "notes": []
+            },
+            {
+                "def": "SpaceNumber.watcher",
+                "desc": "The space watcher object",
+                "name": "watcher",
+                "type": "hs.spaces.watcher",
+                "notes": []
+            }
+        ],
+        "Function": [],
+        "Method": [
+            {
+                "def": "SpaceNumber:init()",
+                "desc": "Initialize the SpaceNumber spoon",
+                "name": "init",
+                "parameters": [],
+                "returns": [
+                    {
+                        "type": "SpaceNumber",
+                        "desc": "The SpaceNumber object"
+                    }
+                ],
+                "notes": [
+                    "Creates and configures the canvas for displaying the space number"
+                ]
+            },
+            {
+                "def": "SpaceNumber:updateDisplay()",
+                "desc": "Update the displayed space number",
+                "name": "updateDisplay",
+                "parameters": [],
+                "returns": [],
+                "notes": [
+                    "Gets the current space number and updates the display"
+                ]
+            },
+            {
+                "def": "SpaceNumber:toggleShow()",
+                "desc": "Toggle visibility of the space number display",
+                "name": "toggleShow",
+                "parameters": [],
+                "returns": [
+                    {
+                        "type": "SpaceNumber",
+                        "desc": "The SpaceNumber object"
+                    }
+                ],
+                "notes": [
+                    "Shows/hides the space number and starts/stops the watcher"
+                ]
+            }
+        ],
+        "Variable": [],
+        "desc": "Show current space number in the top right corner",
+        "doc": "Show current space number in the top right corner\n\nDownload: [https://github.com/zzuse/SpaceNumber.spoon/raw/master/Spoons/SpaceNumber.spoon.zip](https://github.com/zzuse/SpaceNumber.spoon/raw/master/Spoons/SpaceNumber.spoon.zip)",
+        "items": [],
+        "name": "SpaceNumber",
+        "stripped_doc": "Show current space number in the top right corner\n\nDownload: [https://github.com/zzuse/SpaceNumber.spoon/raw/master/Spoons/SpaceNumber.spoon.zip](https://github.com/zzuse/SpaceNumber.spoon/raw/master/Spoons/SpaceNumber.spoon.zip)",
+        "submodules": [],
+        "type": "Module"
+    }
+]
